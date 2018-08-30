@@ -1,0 +1,63 @@
+// Bootstrap overrides for this template
+.bg-primary {
+  /*background: #fdcc52; */
+  background: -webkit-linear-gradient(#f7efed, #bcb9b8);
+  background: url("../img/bg-pattern2.png"), linear-gradient(127deg, rgba(209, 225, 255,.8), rgba(0,0,0,0) 70.71%) !important;
+}
+
+.text-primary {
+  color: #dba41a;
+}
+
+.no-gutter > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.btn-outline {
+  color: black;
+  border: 1px solid;
+  border-color: black;
+}
+
+.btn-search {
+    color: black;
+    border: 1px solid;
+    border-color: grey;
+    background-color: transparent;
+    font-size: 11px;
+    padding: 15px 45px;
+    margin-bottom: 20px;
+}
+
+.btn-search:hover, .btn-search:focus, .btn-search:active, .btn-search.active {
+  color: black;
+  border-color: #000;
+}
+
+#getstarted {
+  margin-top: 20px;
+  text-decoration: none !important;
+  color: #000;
+  border-color: grey;
+}
+
+#getstarted:hover, #getstarted:focus, #getstarted:active, #getstarted.active {
+  border-color: black;
+}
+
+.btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
+  color: black;
+  border-color: #000;
+}
+
+.btn {
+  font-family: 'RobotoLight', 'sans-serif';
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.btn-xl {
+  font-size: 11px;
+  padding: 15px 45px;
+}

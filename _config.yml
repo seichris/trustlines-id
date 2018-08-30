@@ -1,0 +1,13 @@
+sass:
+    sass_dir: _sass
+
+title: trustlines app
+description: the trustlines app
+author: auxiliary GmbH
+url: trustlines.io
+logo: /img/trustlines.png
+image: /img/trustlines.png
+social:
+  name: trustlines
+  links:
+    - https://github.com/auxiliary/trustlines.io

@@ -1,0 +1,99 @@
+// Styling for the navbar
+#mainNav {
+  border-color: rgba(34, 34, 34, 0.05);
+  background-color: white;
+  -webkit-transition: all .35s;
+  -moz-transition: all .35s;
+  transition: all .35s;
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+#mainNav .navbar-brand {
+  color: #fcbd20;
+  text-decoration: none !important;
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+#mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+  color: #fcbd20;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 12px;
+  padding: 8px 10px;
+  color: #222222;
+}
+
+#mainNav .navbar-nav > li > a {
+  font-size: 11px;
+  text-decoration: none !important;
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#mainNav .navbar-nav > li > a.active {
+  color: #dba41a !important;
+  background-color: transparent;
+}
+
+#mainNav .navbar-nav > li > a.active:hover {
+  background-color: transparent;
+}
+
+#mainNav .navbar-nav > li > a,
+#mainNav .navbar-nav > li > a:focus {
+  color: #222222;
+}
+
+#mainNav .navbar-nav > li > a:hover,
+#mainNav .navbar-nav > li > a:focus:hover {
+  color: #727272;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    border-color: transparent;
+    background-color: transparent;
+  }
+  #mainNav .navbar-brand {
+    color: fade(white, 70%);
+  }
+  #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+    color: white;
+  }
+  #mainNav .navbar-nav > li > a,
+  #mainNav .navbar-nav > li > a:focus {
+    color: #222222;
+  }
+  #mainNav .navbar-nav > li > a:hover,
+  #mainNav .navbar-nav > li > a:focus:hover {
+    color: #727272;
+  }
+  #mainNav.navbar-shrink {
+    border-color: rgba(34, 34, 34, 0.1);
+    background-color: white;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    color: #222222;
+  }
+  #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
+    color: #dba41a;
+  }
+  #mainNav.navbar-shrink .navbar-nav > li > a,
+  #mainNav.navbar-shrink .navbar-nav > li > a:focus {
+    color: #222222;
+  }
+  #mainNav.navbar-shrink .navbar-nav > li > a:hover,
+  #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
+    color: #dba41a;
+  }
+}
+
+#page-top {
+  overflow-x: hidden !important;
+}

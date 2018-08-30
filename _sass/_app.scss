@@ -1,0 +1,22 @@
+
+  @media screen and (max-width: 768px) {
+    #examples {
+      display: none;
+    }
+    #getstarted {
+      display: none;
+    }
+    #examplesnav {
+      display: none;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 6000px){
+    #scrolldownbutton {
+      display: none;
+    }
+}
+
+#approw {
+  margin-bottom: 40px;
+}

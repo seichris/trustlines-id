@@ -1,0 +1,65 @@
+.hljs{
+    display:block;
+    overflow-x:auto;
+    padding:0.5em;
+    border-color: grey;
+    border-style: solid;
+    border-radius: .25rem;
+    border-width: 1px;
+    background-color: #fffefc;
+}
+/*
+.hljs::-webkit-scrollbar-track
+{
+	background-color: #f4f4f2;
+}
+
+.hljs::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #e2e1de;
+}
+
+.hljs::-webkit-scrollbar-thumb
+{
+	background-color: #e2e1de;
+}
+*/
+
+.hljs,.hljs-subst{
+    color:#444;
+}
+.hljs-comment{
+    color:#888888;
+}
+.hljs-keyword,.hljs-attribute,.hljs-selector-tag,.hljs-meta-keyword,.hljs-doctag,.hljs-name{
+    font-weight:bold;
+}
+.hljs-type,.hljs-string,.hljs-number,.hljs-selector-id,.hljs-selector-class,.hljs-quote,.hljs-template-tag,.hljs-deletion{
+    color:#a82d2d;
+}
+.hljs-title,.hljs-section{
+    color:#a82d2d;
+    font-weight:bold;
+}
+.hljs-regexp,.hljs-symbol,.hljs-variable,.hljs-template-variable,.hljs-link,.hljs-selector-attr,.hljs-selector-pseudo{
+    color:#BC6060;
+}
+.hljs-literal{
+    color:#78A960;
+}
+.hljs-built_in,.hljs-bullet,.hljs-code,.hljs-addition{
+    color:#397300;
+}
+.hljs-meta{
+    color:#1f7199;
+}
+.hljs-meta-string{
+    color:#4d99bf;
+}
+.hljs-emphasis{
+    font-style:italic;
+}
+.hljs-strong{
+    font-weight:bold;
+}
